@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.topnav {
+  background-color: #0066cc;
+  overflow: hidden;
+  padding: 14px 16px;
+}
+
+.topnav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.topnav a:hover {
+  color: #ddd;
+}
+
+.input-box {
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.input-box:focus {
+  border-color: #0066cc;
+  outline: none;
+}
