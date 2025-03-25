@@ -21,8 +21,16 @@
   <h1>Subnetting Match</h1>
   <p>Enter your IP address below</p>
   <input type="text" id="ipAddress" placeholder="Enter IP address (e.g. 192.168.1.1)" class="input-box">
+  
   <p>Enter the amount of hosts you plan to have on the network</p>
   <input type="number" id="hostCount" placeholder="Enter number of hosts" class="input-box">
+
+  <button 
+    onclick="calculateSubnet()">Calculate
+  </button>
+  
+  <p>Subnetmask: <span id="result"></span></p>
+  
   <script src="script.js"></script>
 </body>
 
